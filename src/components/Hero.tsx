@@ -78,8 +78,8 @@ const Hero = () => {
                   <Image
                     src="/assets/partners/universitas-teknokra-indonesia-logo.png"
                     alt="Universitas Teknokrat Indonesia"
-                    width={200}
-                    height={120}
+                    width={180}
+                    height={200}
                     className="object-contain drop-shadow-lg"
                   />
 
@@ -87,10 +87,9 @@ const Hero = () => {
                     src="/assets/partners/inflolink.png"
                     alt="Infolink University College"
                     width={200}
-                    height={190}
+                    height={120}
                     className="object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
                   />
-
                 </div>
               </div>
             </div>
