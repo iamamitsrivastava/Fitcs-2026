@@ -45,7 +45,6 @@ const Navbar = () => {
       ),
       href: "/committee",
       subItems: [
-        { label: "Steering Committee", href: "/steering-committee" },
         { label: "Committee Responsibilities", href: "/committee-responsibilities" }
       ]
     },

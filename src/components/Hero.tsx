@@ -82,13 +82,7 @@ const Hero = () => {
                     height={120}
                     className="object-contain drop-shadow-lg"
                   />
-                  <Image
-                    src="/assets/aisct-logo-new.png"
-                    alt="AISCT Logo"
-                    width={200}
-                    height={150}
-                    className="object-contain drop-shadow-lg"
-                  />
+
                   <Image
                     src="/assets/partners/inflolink.png"
                     alt="Infolink University College"

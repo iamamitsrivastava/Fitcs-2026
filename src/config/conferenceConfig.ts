@@ -481,7 +481,7 @@ export const conferenceConfig = {
       }
     ],
     publicationCommittee: [
-      { name: "Dr. Praveen Tomar", title: "Faculty", organization: "FITCS Parul University" }, 
+      { name: "Dr. Praveen Tomar", title: "Faculty", organization: "FITCS Parul University" },
       { name: "Dr. Sumit Soni", title: "Faculty", organization: "FITCS Parul University" },
       { name: "Dr. Ratnesh Namdeo", title: "Faculty", organization: "FITCS Parul University" },
       { name: "Dr. Chetan Gondaliya", title: "Faculty", organization: "FITCS Parul University" },
@@ -491,7 +491,7 @@ export const conferenceConfig = {
     steeringCommittee: [
       { name: "Dr. Raj Sinha", title: "CRO", organization: "Faculty of information Technology & computer science, Vadodara, Gujarat", image: "/assets/comittiee/rajsinha-v2.jpg" },
       { name: "Dr. Ramachandran P", title: "Assistant Professor", organization: "Faculty of information Technology & computer science, Vadodara, Gujarat", image: "/assets/comittiee/ramachandran-v2.jpg" },
-      { name: "Dr. Saswati Chatterjee", title: "Assistant Professor", organization: "", image: "/assets/comittiee/saswati-v2.jpg" }
+      { name: "Dr. Saswati Chatterjee", title: "Assistant Professor", organization: "Faculty of information Technology & computer science, Vadodara, Gujaratre", image: "/assets/comittiee/saswati-v2.jpg" }
     ],
     executiveCommittee: [
       { name: "Dr. Babita Chaube", title: "Campus Director", organization: "Parul University" },

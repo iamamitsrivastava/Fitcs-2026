@@ -213,6 +213,21 @@ const Committee = () => {
               </div>
             )}
 
+            {/* Steering Committee */}
+            {conferenceConfig.committee.steeringCommittee && conferenceConfig.committee.steeringCommittee.length > 0 && (
+              <div className="flex flex-wrap justify-center gap-x-16 gap-y-12 mt-8">
+                <div className="w-full text-center mb-4">
+                  <h2 className="text-2xl font-bold text-yellow-100 font-serif relative inline-block">
+                    Steering Committee
+                    <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-12 h-[2px] bg-yellow-400"></div>
+                  </h2>
+                </div>
+                {conferenceConfig.committee.steeringCommittee.map((member, i) => (
+                  <ProfileCard key={`sc-${i}`} member={member} roleFallback="STEERING MEMBER" />
+                ))}
+              </div>
+            )}
+
             {/* Advisory Committee */}
             {advisory && advisory.length > 0 && (
               <div className="flex flex-wrap justify-center gap-x-12 gap-y-12 mt-8">
