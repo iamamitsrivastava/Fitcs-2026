@@ -99,7 +99,7 @@ const Hero = () => {
           <motion.div variants={itemVariants} className="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-4 md:gap-6 mb-6 sm:mb-8 md:mb-10">
             <div className="flex items-center space-x-2 bg-black/50 backdrop-blur-md px-5 py-2.5 rounded-full border border-[#FFD700]/30 shadow-[0_0_15px_rgba(255,215,0,0.15)]">
               <Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-[#FFD700]" />
-              <span className="text-white font-semibold text-sm sm:text-base">February 6 2026</span>
+              <span className="text-white font-semibold text-sm sm:text-base">February 6 2027</span>
             </div>
             <div className="flex items-center space-x-2 bg-black/50 backdrop-blur-md px-5 py-2.5 rounded-full border border-[#FFD700]/30 shadow-[0_0_15px_rgba(255,215,0,0.15)]">
               <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#FFD700]" />

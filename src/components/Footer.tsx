@@ -149,10 +149,15 @@ const Footer = () => {
             <p className="text-sm text-gray-400 drop-shadow-[0_0_3px_rgba(255,255,255,0.2)] mb-4 md:mb-0">
               © 2026-27 AISCT International Conference. All rights reserved.
             </p>
-            <p className="text-sm text-gray-400 drop-shadow-[0_0_3px_rgba(255,255,255,0.2)] mb-4 md:mb-0 flex items-center flex-wrap">
-              Designed & Developed by:
-              <a href="https://www.linkedin.com/in/amit-srivastava108/" target="_blank" rel="noopener noreferrer" className="flex items-center ml-1 text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all group">
+            <p className="text-sm text-gray-400 drop-shadow-[0_0_3px_rgba(255,255,255,0.2)] mb-4 md:mb-0 flex items-center flex-wrap gap-x-1">
+              <span>Designed & Developed by:</span>
+              <a href="https://www.linkedin.com/in/amit-srivastava108/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all group">
                 <span className="font-bold mr-1 group-hover:underline">Amit Srivastava</span>
+                <Linkedin className="w-4 h-4 text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
+              </a>
+              <span>&</span>
+              <a href="https://www.linkedin.com/in/mahek-darji-521651303/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all group">
+                <span className="font-bold mr-1 group-hover:underline">Mahek Darji</span>
                 <Linkedin className="w-4 h-4 text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
               </a>
             </p>

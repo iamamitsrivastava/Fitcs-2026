@@ -132,7 +132,6 @@ const Glimpses = () => {
                       className="w-full border-0"
                       style={{ height: '620px', marginTop: '-54px' }}
                       src={`https://www.instagram.com/p/${(item as any).instagramId}/embed/?hidecaption=true`}
-                      allowtransparency="true"
                       allowFullScreen
                       scrolling="no"
                     />
