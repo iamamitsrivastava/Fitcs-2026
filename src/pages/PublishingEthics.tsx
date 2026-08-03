@@ -19,10 +19,7 @@ import {
 
 const PublishingEthics = () => {
   const downloadFile = () => {
-    const link = document.createElement("a");
-    link.href = "/documents/author-guidelines.pdf";
-    link.download = "author-guidelines.pdf";
-    link.click();
+    window.open("https://drive.google.com/file/d/1w-_ix3qKmf9bEpXgVuXoJybOZltiHkH_/view?usp=sharing", "_blank");
   };
 
   const sections = [
@@ -91,7 +88,7 @@ const PublishingEthics = () => {
           <div>
             <h4 className="font-semibold mb-2">Review Outcomes</h4>
             <ul className="list-disc list-inside space-y-1 text-muted-foreground">
-              <li>Accept: Paper accepted as is</li>
+              <li>Accept: Paper accepted as it is</li>
               <li>Accept with minor revisions: Address small issues</li>
               <li>Reject with invitation to resubmit: Major revisions needed</li>
               <li>Reject: Does not meet publication standards</li>

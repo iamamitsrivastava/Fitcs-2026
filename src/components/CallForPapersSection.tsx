@@ -45,6 +45,10 @@ const CallForPapersSection = ({ id }: { id?: string }) => {
   ];
 
   const downloadFile = (filename: string) => {
+    if (filename === 'author-guidelines.pdf') {
+      window.open("https://drive.google.com/file/d/1w-_ix3qKmf9bEpXgVuXoJybOZltiHkH_/view?usp=sharing", "_blank");
+      return;
+    }
     const link = document.createElement('a');
     link.href = `/documents/${filename}`;
     link.download = filename;
