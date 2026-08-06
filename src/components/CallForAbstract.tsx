@@ -28,10 +28,10 @@ const CallForAbstract = () => {
           </h1>
           <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-10 rounded-r-lg text-left shadow-lg">
             <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-6 font-medium">
-              The Scientific Committee warmly invites researchers, academicians, public health professionals, postgraduate students, and practitioners to submit original research abstracts for Oral and Poster Presentations at the conference.
+              The Scientific Committee warmly invites researchers, academicians, industry experts, innovators, postgraduate students, and practitioners to submit original research abstracts for Oral and Poster Presentations at the conference.
             </p>
             <p className="text-gray-300 text-sm md:text-base leading-relaxed font-medium">
-              Abstracts addressing a wide range of topics related to community medicine and public health, aligned with the conference themes and sub-themes, are encouraged. Selected abstracts will be showcased during the scientific sessions, and outstanding oral and poster presentations will be recognized with awards.
+              Abstracts covering Artificial Intelligence, Smart Computing, Cybersecurity, Data Science, Cloud Computing, Internet of Things (IoT), Quantum Technologies, Software Engineering, Digital Business Transformation, and related areas of Computer Science and Information Technology, aligned with the conference themes and sub-themes, are encouraged. Selected abstracts will be presented during the scientific sessions, and outstanding oral and poster presentations will be honored with awards.
             </p>
           </div>
         </div>
