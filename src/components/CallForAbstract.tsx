@@ -39,115 +39,80 @@ const CallForAbstract = () => {
         {/* 1. SUBMISSION GUIDELINES */}
         <div className="mb-20">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-bold font-serif tracking-wide">
+            <h2 className="text-3xl md:text-5xl font-bold font-serif tracking-wide mb-4">
               <span className="text-white">SUBMISSION </span>
-              <span className="text-[#facc15]">GUIDLINES</span>
+              <span className="text-[#facc15]">GUIDELINES</span>
             </h2>
+            <p className="text-gray-300 text-sm md:text-base leading-relaxed font-medium">
+              Please ensure that your manuscript complies with the conference requirements before submission.
+            </p>
           </div>
 
-          <div className="space-y-6 mb-12">
-            {/* Item 01 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">01</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Author Instructions Card */}
+            <div className="bg-[#151b2b] p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col h-full">
+              <h3 className="text-2xl font-bold text-white mb-6 font-serif">Author Instructions</h3>
+              <ul className="space-y-4 text-gray-300 flex-1 text-sm md:text-base">
+                <li className="flex items-start">
+                  <span className="text-[#facc15] mr-3 mt-1">•</span>
+                  <span>Use the IEEE conference paper format.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#facc15] mr-3 mt-1">•</span>
+                  <span>Paper length: 6 pages in standard IEEE format.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#facc15] mr-3 mt-1">•</span>
+                  <span>Paper Format <a href="#" className="text-[#3b82f6] font-semibold hover:underline">Word and LaTex Templates</a></span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#facc15] mr-3 mt-1">•</span>
+                  <span><strong>LaTeX</strong> is the preferred submission format due to its compatibility with the publication workflow and its ability to facilitate faster processing.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#facc15] mr-3 mt-1">•</span>
+                  <span>Submit only original and unpublished work.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#facc15] mr-3 mt-1">•</span>
+                  <span>No simultaneous submissions elsewhere.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-[#facc15] mr-3 mt-1">•</span>
+                  <span>Double-blind peer review applies.</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Submission Portal Card */}
+            <div className="bg-[#151b2b] p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col h-full">
+              <h3 className="text-2xl font-bold text-white mb-6 font-serif">Submission Portal</h3>
+              
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-8">
+                The conference management system link is currently marked as <strong>CMT by Microsoft.</strong>
+              </p>
+
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-8">
+                The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+              </p>
+
+              <div className="flex-1" />
+
               <div>
-                <h3 className="text-xl font-bold text-white mb-2">Registration</h3>
-                <p className="text-gray-400 text-sm md:text-base">Complete the registration process first to ensure your participation.</p>
-              </div>
-            </div>
-
-            {/* Item 02 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">02</div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-white mb-2">Prepare Abstract</h3>
-                <p className="text-gray-400 text-sm md:text-base mb-4">Submit abstract as per abstract submission guidlines.</p>
-                <Button variant="outline" className="border-[#facc15] text-[#facc15] bg-transparent hover:bg-[#facc15] hover:text-black transition-colors rounded-none">
-                  <Eye className="w-4 h-4 mr-2" />
-                  View Abstract Submission Guidlines
-                </Button>
-              </div>
-            </div>
-
-            {/* Item 03 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">03</div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-white mb-2">Submit for Review</h3>
-                <p className="text-gray-400 text-sm md:text-base mb-4">Send your abstract by clicking the below button. All submissions will undergo double-blind peer review.</p>
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-6">
-                    Template for Abstract Submission
+                <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027" target="_blank" rel="noopener noreferrer" className="inline-block">
+                  <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold rounded-full px-8 py-6 text-base">
+                    Submission Link
                   </Button>
-                  <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-6">
-                    Submit Abstract <Lock className="w-4 h-4 ml-2" />
-                  </Button>
-                </div>
-              </div>
-            </div>
-
-            {/* Item 04 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">04</div>
-              <div>
-                <h3 className="text-xl font-bold text-white mb-2">Wait for Acceptance</h3>
-                <p className="text-gray-400 text-sm md:text-base">Notifications of acceptance will be sent via email by the specified date.</p>
-              </div>
-            </div>
-
-            {/* Item 05 */}
-            <div className="bg-[#151b2b] border-l-4 border-[#facc15] p-6 md:p-8 rounded-r-lg flex flex-col md:flex-row gap-6 items-start md:items-center">
-              <div className="text-4xl md:text-6xl font-bold text-[#facc15] font-serif w-24 flex-shrink-0">05</div>
-              <div className="flex-1">
-                <h3 className="text-xl font-bold text-white mb-2">Full Paper Submission</h3>
-                <p className="text-gray-400 text-sm md:text-base mb-4">Upon acceptance, submit the full paper (min 7000 words) adhering to formatting guidelines.</p>
-                <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-6">
-                  Submit Full Paper <Lock className="w-4 h-4 ml-2" />
-                </Button>
+                </a>
               </div>
             </div>
           </div>
+        </div>
 
-          {/* Presentation Types */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            <div className="bg-[#151b2b] border-t-4 border-[#facc15] p-8 rounded-b-lg flex flex-col items-center text-center shadow-lg">
-              <div className="w-16 h-16 rounded-full border border-gray-600 flex items-center justify-center mb-6">
-                <Mic className="w-8 h-8 text-[#facc15]" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4 font-serif">Oral Presentation</h3>
-              <p className="text-gray-400 text-sm md:text-base mb-8 flex-1">Prepare your 10-12 slides using official conference PPT format (Times new roman). Ensure your presentation fits within the allocated time slot.</p>
-              <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
-                <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold rounded-none px-6" onClick={() => downloadFile('ppt-template.pptx')}>
-                  <Download className="w-4 h-4 mr-2" /> Download Template
-                </Button>
-                <Button variant="outline" className="border-[#facc15] text-[#facc15] bg-transparent hover:bg-[#facc15] hover:text-black transition-colors rounded-none px-6">
-                  <Eye className="w-4 h-4 mr-2" /> View Guidelines
-                </Button>
-              </div>
-            </div>
-            <div className="bg-[#151b2b] border-t-4 border-[#facc15] p-8 rounded-b-lg flex flex-col items-center text-center shadow-lg">
-              <div className="w-16 h-16 rounded-full border border-gray-600 flex items-center justify-center mb-6">
-                <Monitor className="w-8 h-8 text-[#facc15]" />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-4 font-serif">Poster Presentation</h3>
-              <p className="text-gray-400 text-sm md:text-base mb-8 flex-1">Follow the guidelines to prepare your poster for an effective presentation. The size of poster is 3 × 4 feet.</p>
-              <div className="flex flex-col sm:flex-row gap-4 w-full justify-center">
-                <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold rounded-none px-6" onClick={() => downloadFile('poster-template.pptx')}>
-                  <Download className="w-4 h-4 mr-2" /> Download Template
-                </Button>
-                <Button variant="outline" className="border-[#facc15] text-[#facc15] bg-transparent hover:bg-[#facc15] hover:text-black transition-colors rounded-none px-6">
-                  <Eye className="w-4 h-4 mr-2" /> View Guidelines
-                </Button>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex justify-center mb-12">
-            <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-8 py-6 text-lg shadow-[0_0_15px_rgba(250,204,21,0.3)]" onClick={() => downloadFile('author-guidelines.pdf')}>
-              <Download className="w-5 h-5 mr-2" /> Download Author Guidelines
-            </Button>
-          </div>
-
-
+        <div className="flex justify-center mb-12">
+          <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-8 py-6 text-lg shadow-[0_0_15px_rgba(250,204,21,0.3)] w-full md:w-auto" onClick={() => downloadFile('author-guidelines.pdf')}>
+            <Download className="w-5 h-5 mr-3" /> DOWNLOAD AUTHOR GUIDELINES
+          </Button>
         </div>
 
         {/* 2. DOWNLOAD ABSTRACT FORMAT */}
@@ -212,7 +177,7 @@ const CallForAbstract = () => {
               <div className="border border-blue-900/50 bg-[#101930] rounded-lg p-5 flex gap-4 items-start">
                 <Mail className="w-5 h-5 text-gray-400 mt-1 flex-shrink-0" />
                 <p className="text-gray-300 text-sm md:text-base">
-                  For complaints or concerns regarding published articles, contact us at <a href="fitcs.conference@paruluniversity.ac.in" className="text-blue-400 hover:underline">fitcs.conference@paruluniversity.ac.in</a>. We will acknowledge your email and provide an estimated timeframe for investigating your concerns.
+                  For complaints or concerns regarding published articles, contact us at <a href="mailto:fitcs.conference@paruluniversity.ac.in" className="text-blue-400 hover:underline">fitcs.conference@paruluniversity.ac.in</a>. We will acknowledge your email and provide an estimated timeframe for investigating your concerns.
                 </p>
               </div>
             </div>
