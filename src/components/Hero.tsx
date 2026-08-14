@@ -88,7 +88,7 @@ const Hero = () => {
                     alt="Infolink University College"
                     width={240}
                     height={240}
-                    className="h-32 md:h-40 lg:h-44 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
+                    className="h-32 md:h-40 lg:h-44 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)] mt-4 md:mt-6"
                   />
                 </div>
               </div>
