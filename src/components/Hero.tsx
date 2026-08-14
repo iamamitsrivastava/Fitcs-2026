@@ -61,34 +61,34 @@ const Hero = () => {
                 </h3>
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold leading-none">
                   <span className="bg-gradient-to-r from-[#FFD700] via-[#FFC107] to-[#B8860B] bg-clip-text text-transparent drop-shadow-[0_0_20px_rgba(255,215,0,0.5)] whitespace-nowrap">AISCT</span>{" "}
-                  <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.3)] whitespace-nowrap">2026-27</span>
+                  <span className="text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.3)] whitespace-nowrap">2027</span>
                 </h1>
               </div>
 
               {/* Associated With Section (Right Side) */}
-              <div className="flex flex-col items-center mt-4 md:mt-0 md:-mt-52 lg:-mt-64 relative z-10">
-                <div className="flex items-center gap-4 mb-6">
+              <div className="flex flex-col items-center mt-16 md:mt-6 lg:mt-8 relative z-10">
+                <div className="flex items-center gap-4 mb-2">
                   <div className="h-[1px] w-16 bg-gradient-to-r from-transparent to-[#FFD700]/70"></div>
                   <p className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD700] to-[#FFC107] text-sm md:text-lg font-bold uppercase tracking-[0.2em] text-center drop-shadow-[0_0_8px_rgba(255,215,0,0.4)]">
                     Associated With
                   </p>
                   <div className="h-[1px] w-16 bg-gradient-to-l from-transparent to-[#FFD700]/70"></div>
                 </div>
-                <div className="flex items-center gap-5 md:gap-7">
+                <div className="flex items-center justify-center gap-8 md:gap-12 mt-0">
                   <Image
                     src="/assets/partners/universitas-teknokra-indonesia-logo.png"
                     alt="Universitas Teknokrat Indonesia"
-                    width={180}
-                    height={200}
-                    className="object-contain drop-shadow-lg"
+                    width={220}
+                    height={220}
+                    className="h-28 md:h-36 lg:h-40 w-auto object-contain drop-shadow-lg"
                   />
 
                   <Image
                     src="/assets/partners/inflolink.png"
                     alt="Infolink University College"
-                    width={200}
-                    height={120}
-                    className="object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
+                    width={240}
+                    height={240}
+                    className="h-32 md:h-40 lg:h-44 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)]"
                   />
                 </div>
               </div>
