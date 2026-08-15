@@ -135,7 +135,8 @@ export const conferenceConfig = {
         name: "Dr. Devanshu Patel",
         title: "President",
         organization: "Parul University",
-        image: "/assets/comittiee/Dr-Devanshu.jpg"
+        image: "/assets/comittiee/Dr-Devanshu.jpg",
+        role: "CHIEF PATRON"
       }
     ],
     patrons: [
@@ -184,174 +185,434 @@ export const conferenceConfig = {
         role: "CO-PATRON"
       }
     ],
+    generalChair: [
+      {
+        name: "Dr. Priya Swaminarayan",
+        title: "Dean & Principal – Faculty of Information Technology and Computer Science",
+        organization: "Parul University",
+        role: "GENERAL CHAIR",
+        image: "/assets/comittiee/dr-priyaswaminarayan.png"
+      }
+    ],
+    generalCoChairs: [
+      {
+        name: "Dr. Hina Chokshi",
+        title: "Vice Principal, Faculty of Information Technology and Computer Science",
+        organization: "Parul University",
+        role: "GENERAL CO-CHAIR",
+        image: "/assets/comittiee/hina.jpeg"
+      },
+      {
+        name: "Dr Dereje Bedane",
+        title: "President",
+        organization: "Infolink University College of Ethiopia",
+        role: "GENERAL CO-CHAIR",
+        image: "/assets/comittiee/dereje.jpg"
+      },
+      {
+        name: "Dr. Sc. Dedi Darwis",
+        title: "Dean of the Faculty of Engineering and Computer Science",
+        organization: "Universitas Teknokrat Indonesia",
+        role: "GENERAL CO-CHAIR",
+        image: "/assets/comittiee/dedi.jpg"
+      },
+      {
+        name: "Dr. Swapnil M Parikh",
+        title: "Dean, Faculty of Engineering & Technology",
+        organization: "Parul University, Vadodara",
+        role: "GENERAL CO-CHAIR",
+        image: "/assets/comittiee/swapnil.jpg"
+      }
+    ],
+    convener: [
+      {
+        name: "Dr. Abhishek Metha",
+        title: "Associate Professor & HOD-BCA, Faculty of Information Technology and Computer Science",
+        organization: "Parul University",
+        role: "CONVENER",
+        image: "/assets/comittiee/abhishek.png"
+      }
+    ],
+    coConveners: [
+      {
+        name: "Prof. Vivek Dave",
+        title: "HOD MCA-Department, Faculty of Information Technology and Computer Science",
+        organization: "Parul University",
+        role: "CO-CONVENER",
+        image: "/assets/comittiee/vivek.png"
+      },
+      {
+        name: "Dr. Bela Shah",
+        title: "Department of Computer Science & Engineering, Parul Institute of Technology",
+        organization: "Parul University",
+        role: "CO-CONVENER",
+        image: "/assets/comittiee/bela.jpg"
+      }
+    ],
+    organizingSecretaries: [
+      {
+        name: "Dr. Ramachandran P",
+        title: "Assistant Professor, Faculty of Information Technology & Computer Science",
+        organization: "Parul University, Vadodara, Gujarat",
+        role: "ORGANIZING SECRETARY",
+        image: "/assets/comittiee/ramachandran-v2.jpg"
+      },
+      {
+        name: "Dr. Saswati Chatterjee",
+        title: "Assistant Professor, Faculty of Information Technology & Computer Science",
+        organization: "Parul University, Vadodara, Gujarat",
+        role: "ORGANIZING SECRETARY",
+        image: "/assets/comittiee/saswati-v2.jpg"
+      },
+      {
+        name: "Dr. Raj Sinha",
+        title: "CRO, Faculty of Information Technology & Computer Science",
+        organization: "Parul University, Vadodara, Gujarat",
+        role: "ORGANIZING SECRETARY",
+        image: "/assets/comittiee/rajsinha-v2.jpg"
+      }
+    ],
+    nationalAdvisoryCommittee: [
+      {
+        name: "Dr Rajesh Kumar Dhanaraj",
+        title: "Professor",
+        organization: "SICSR, Symbiosis International (Deemed University), Pune"
+      },
+      {
+        name: "Dr Savithri M",
+        title: "Faculty",
+        organization: "CHRIST (Deemed to be University), Pune Lavasa"
+      },
+      {
+        name: "Dr. S. Aanjan Kumar",
+        title: "Faculty",
+        organization: "School of Computing Science and Engineering, VIT Bhopal University"
+      },
+      {
+        name: "SVN Santhosh Kumar",
+        title: "Associate Professor (World 2% Scientist for 2025)",
+        organization: "SCORE, VIT-Vellore Campus"
+      },
+      {
+        name: "Dr. Basant Agarwal",
+        title: "Associate Professor, Dean and Head",
+        organization: "Central University of Rajasthan"
+      },
+      {
+        name: "Dr. Sonal Jain",
+        title: "Professor",
+        organization: "PG Department of CS and IT, Sardar Patel University, Vallabh Vidyanagar, Gujarat"
+      },
+      {
+        name: "Dr. Paresh Vallabhbhai Virparia",
+        title: "Professor",
+        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India"
+      },
+      {
+        name: "Professor (Dr.) Darshan Choksi",
+        title: "Professor",
+        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India"
+      },
+      {
+        name: "Dr. Priti Srinivas Sajja",
+        title: "Professor and Director",
+        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India"
+      },
+      {
+        name: "Dr. Sanskruti Patel",
+        title: "Dean & Professor",
+        organization: "Charotar University of Science and Technology"
+      },
+      {
+        name: "Dr. Kumbha Rana",
+        title: "Faculty",
+        organization: "Saurashtra University"
+      }
+    ],
+    internationalAdvisoryCommittee: [
+      {
+        name: "Dr. Ruchi Doshi",
+        title: "Professor",
+        organization: "Universidad Azteca",
+        country: "Mexico"
+      },
+      {
+        name: "Dragan Pamucar",
+        title: "Faculty, Department of Operations Research and Statistics",
+        organization: "University of Belgrade, Faculty of Organizational Sciences, Belgrade",
+        country: "Serbia"
+      },
+      {
+        name: "Dr. Mohammad Tariqul Islam",
+        title: "Professor",
+        organization: "Universiti Kebangsaan Malaysia",
+        country: "Malaysia"
+      },
+      {
+        name: "Dr. Prasanalakshmi B",
+        title: "Professor",
+        organization: "King Khalid University, Abha",
+        country: "Saudi Arabia"
+      },
+      {
+        name: "Mr. Praveen Vaidya",
+        title: "Global Director of Quality",
+        organization: "PPG Industries",
+        country: "USA"
+      },
+      {
+        name: "Dr. Haipeng Liu",
+        title: "Faculty",
+        organization: "Coventry University",
+        country: "UK"
+      },
+      {
+        name: "Dr. Andrey Kuzmin",
+        title: "Professor",
+        organization: "Penza State University, Penza",
+        country: "Russia"
+      },
+      {
+        name: "Dr. Piyush Samant",
+        title: "Data Scientist",
+        organization: "Mirxes Laboratories Pvt. Ltd",
+        country: "Singapore"
+      },
+      {
+        name: "Dr. Vaibhav Gandhi",
+        title: "Director of Programs, Product and Design Engineering",
+        organization: "Middlesex University, London",
+        country: "UK"
+      },
+      {
+        name: "Dr. Nikhil Medhekar",
+        title: "Professor, Department of Material Science",
+        organization: "Monash University, Melbourne",
+        country: "Australia"
+      },
+      {
+        name: "Dr. Akshay Saha",
+        title: "Professor",
+        organization: "Howard College Campus",
+        country: "South Africa"
+      },
+      {
+        name: "Dr. Manoj Kumar",
+        title: "Associate Professor, Faculty of Engineering and Information Sciences",
+        organization: "University of Wollongong in Dubai",
+        country: "UAE"
+      }
+    ],
+    executiveCommittee: [
+      { name: "Dr. Babita Chaube", title: "Campus Director", organization: "Parul University" },
+      { name: "Dr. Pallavi Khedkar", title: "Director (Academics)", organization: "Parul University" },
+      { name: "Dr. Manisha Pathak", title: "Director (Academics)", organization: "Parul University" },
+      { name: "Dr. Bhavesh Mewada", title: "Director, LAEP", organization: "Parul University" },
+      { name: "Dr. Vaibhav Gandhi", title: "Director, FDU", organization: "Parul University" },
+      { name: "Dr. Gordhan Jethwa", title: "Director, PINI", organization: "Parul University" },
+      { name: "Dr. Saurabh Shah", title: "Director, TACD", organization: "Parul University" }
+    ],
+    publicationChair: [
+      { name: "Dr. Ratnesh Namdeo", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Chetan Gondaliya", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Mohammad Altaf Dar", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Satyendra Sharma", title: "Faculty", organization: "FITCS, Parul University" }
+    ],
+    registrationChair: [
+      { name: "Prof. Vipul Gamit", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Ghanshyam Rathod", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Prof. Manish Joshi", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Prof. Mehul Dalwadi", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Payal Dhanesha", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Priyanka Mazumdar", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Vivek Vyas", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Dr. Ratnesh Namdeo", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Prof. Arun U", title: "Faculty", organization: "FITCS, Parul University" }
+    ],
+    financeChair: [
+      { name: "Dr. Vivek Dave", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Prof. Saumil Trivedi", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Prof. Sweta Jethva", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Prof. Sohil Parmar", title: "Faculty", organization: "FITCS, Parul University" },
+      { name: "Prof. Jigar Bhavsar", title: "Faculty", organization: "FITCS, Parul University" }
+    ],
+    technicalChair: [
+      { name: "Dr. Digvijay Virpura", title: "Technical Chair", organization: "FITCS, Parul University" },
+      { name: "Prof. Hardik Parmar", title: "Technical Chair", organization: "FITCS, Parul University" },
+      { name: "Prof. Aniket Paul", title: "Technical Chair", organization: "FITCS, Parul University" }
+    ],
+    technicalCommittee: [
+      {
+        name: "Saleem Raja A",
+        title: "Faculty",
+        organization: "IT Department, College of Computing and Information Science, University of Technology and Applied Science, Shinas, Oman",
+        country: "Oman"
+      },
+      {
+        name: "Jayabarabu Ramakrishnan",
+        title: "Faculty",
+        organization: "Department of Information Technology and Security, College of Computer Science and Information Technology, Jazan University",
+        country: "Saudi Arabia"
+      },
+      {
+        name: "Dr Feroz Khan A.B",
+        title: "Associate Professor",
+        organization: "Syed Hameedha College, Alagappa University",
+        country: "India"
+      },
+      {
+        name: "Dr. M. Ashok Kumar",
+        title: "Controller of Examination & HOD",
+        organization: "Bluecrest University, Monrovia",
+        country: "Liberia"
+      },
+      {
+        name: "Dr. M. Selvakumar Samuel",
+        title: "Associate Professor",
+        organization: "Asia Pacific University of Technology and Innovation",
+        country: "Malaysia"
+      },
+      {
+        name: "Dr. Sc. Dedi Darwis",
+        title: "Professor",
+        organization: "Faculty of Engineering and Computer Science, Universitas Teknokrat Indonesia",
+        country: "Indonesia"
+      },
+      {
+        name: "Dyah Ayu Megawaty",
+        title: "Faculty",
+        organization: "Faculty of Engineering and Computer Science, Universitas Teknokrat Indonesia",
+        country: "Indonesia"
+      },
+      {
+        name: "Qadhi Jafar Adrian",
+        title: "Faculty",
+        organization: "Faculty of Engineering and Computer Science, Universitas Teknokrat Indonesia",
+        country: "Indonesia"
+      },
+      {
+        name: "Dr. Sampurna Dadi Riskiono",
+        title: "Faculty",
+        organization: "Faculty of Engineering and Computer Science, Indonesian University of Teknokrat",
+        country: "Indonesia"
+      },
+      {
+        name: "Dr. R. Elakkiya",
+        title: "Assistant Professor",
+        organization: "Department of Computer Science, Birla Institute of Technology & Science, Pilani (Dubai Campus)",
+        country: "UAE"
+      },
+      {
+        name: "Dr. K. Ramalakshmi",
+        title: "Professor",
+        organization: "Alliance College of Engineering and Design, Alliance University",
+        country: "India"
+      },
+      {
+        name: "Dr. S. Umarani",
+        title: "Professor",
+        organization: "SRM Institute of Science and Technology, Chennai",
+        country: "India"
+      },
+      {
+        name: "Dr. Kumar Chadar",
+        title: "Professor (Decision Science)",
+        organization: "School of Business and Management, Christ University",
+        country: "India"
+      },
+      {
+        name: "Dr. Kaliraj S",
+        title: "Associate Professor",
+        organization: "School of Computer Engineering, Manipal University",
+        country: "India"
+      },
+      {
+        name: "M. Roshni Thanka",
+        title: "Assistant Professor of Computer Science",
+        organization: "Karunya University",
+        country: "India"
+      }
+    ],
+    sessionChairs: [
+      {
+        trackNumber: 1,
+        trackName: "Artificial Intelligence and Intelligent Systems",
+        chairs: [
+          { name: "Prof. Mehul Dalwadi", title: "Faculty", organization: "Parul University" },
+          { name: "Prof. Vijya Tulsani", title: "Faculty", organization: "Parul University" }
+        ]
+      },
+      {
+        trackNumber: 2,
+        trackName: "Sustainable Computing and Intelligent Applications",
+        chairs: [
+          { name: "Dr. Ghanshyam Rathod", title: "Faculty", organization: "Parul University" },
+          { name: "Dr. Payal Dhanesha", title: "Faculty", organization: "Parul University" }
+        ]
+      },
+      {
+        trackNumber: 3,
+        trackName: "AI Applications for Sustainable Development",
+        chairs: [
+          { name: "Dr. Digvijay Virpura", title: "Faculty", organization: "Parul University" },
+          { name: "Dr. Priyanka Mazumdar", title: "Faculty", organization: "Parul University" }
+        ]
+      },
+      {
+        trackNumber: 4,
+        trackName: "Data Science, Cybersecurity and Emerging Technologies",
+        chairs: [
+          { name: "Dr. Vivek Vyas", title: "Faculty", organization: "Parul University" },
+          { name: "Prof. Sweta Jethava", title: "Faculty", organization: "Parul University" }
+        ]
+      },
+      {
+        trackNumber: 5,
+        trackName: "Smart Technologies and Intelligent Applications",
+        chairs: [
+          { name: "Dr. Satyendra Sharma", title: "Faculty", organization: "Parul University" },
+          { name: "Dr. Saswati Chatterjee", title: "Faculty", organization: "Parul University" }
+        ]
+      }
+    ],
+    hospitalityAndTransportChair: [
+      { name: "Prof. Rama Deepak", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Tanmay Shah", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Adarsh Ashok", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Aesh Gada", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Shikha", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Vishakha", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Isha Sevak", title: "Faculty", organization: "Parul University" }
+    ],
+    // Backwards compatibility aliases
     convenors: [
       {
         name: "Dr. Priya Swaminarayan",
         title: "Dean & Principal – Faculty of Information Technology and Computer Science",
-        role: "CONVENOR",
+        role: "GENERAL CHAIR",
         organization: "Parul University",
         image: "/assets/comittiee/dr-priyaswaminarayan.png"
       },
       {
         name: "Dr. Swapnil M Parikh",
         title: "Dean, Faculty of Engineering & Technology, Parul University, Vadodara",
-        role: "CONVENOR",
+        role: "GENERAL CO-CHAIR",
         organization: "Parul University",
-        email: null,
         image: "/assets/comittiee/swapnil.jpg"
       },
       {
         name: "Dr. Sc. Dedi Darwis",
         title: "Dean of the Faculty of Engineering and Computer Science",
-        role: "CONVENOR",
+        role: "GENERAL CO-CHAIR",
         organization: "Universitas Teknokrat Indonesia",
-        email: null,
         image: "/assets/comittiee/dedi.jpg"
       },
       {
         name: "Dr Dereje Bedane",
         title: "President",
-        role: "CONVENOR",
+        role: "GENERAL CO-CHAIR",
         organization: "Infolink University College of Ethiopia",
         image: "/assets/comittiee/dereje.jpg"
-      }
-    ] as CommitteeMember[],
-    coConvenors: [
-      {
-        name: "Dr. Hina Chokshi",
-        title: "Vice Principal, Faculty of Information Technology and Computer Science",
-        role: "CO-CONVENOR",
-        organization: "Parul University",
-        email: null,
-        image: "/assets/comittiee/hina.jpeg"
-      },
-      {
-        name: "Dr. Abhishek Metha",
-        title: "Associate professor HOD-BCA Faculty of Information Technology and Computer Science, Parul University",
-        role: "CO-CONVENOR",
-        organization: "Parul University",
-        email: null,
-        image: "/assets/comittiee/abhishek.png"
-      },
-      {
-        name: "Dr. Ghanshyam Sureshbhai Rathod",
-        title: "Associate Professor,HOD-M Sci(I.T) Faculty of Information Technology and Computer Science",
-        role: "CO-CONVENOR",
-        organization: "Parul University",
-        email: null,
-        image: "/assets/comittiee/ghanshyam.jpg",
-        imagePosition: "object-[center_15%] scale-[1.05]"
-      },
-      {
-        name: "Prof. Vivek Dave",
-        title: "HOD MCA-Department",
-        role: "CO-CONVENOR",
-        organization: "Faculty of Information Technology and Computer Science, Parul University",
-        email: null,
-        image: "/assets/comittiee/vivek.png"
-      },
-      {
-        name: "Prof. Vipul Gamit",
-        title: "Assistant professor HOD-BCA Faculty of Information Technology and Computer Science BSC-IT",
-        role: "CO-CONVENOR",
-        organization: "Parul University",
-        email: null,
-        image: "/assets/comittiee/vipul.jpg"
-      },
-      {
-        name: "Prof. Manish Kumar Joshi",
-        title: "Assistant professor HOD-BCA Faculty of Information Technology and Computer Science IMCA",
-        role: "CO-CONVENOR",
-        organization: "Parul University",
-        email: null,
-        image: "/assets/comittiee/manish.jpg"
-      },
-      {
-        name: "Dr. Bela Shah",
-        title: "Department of Computer Science & Engineering,Parul Institute of Technology, Parul University",
-        role: "CO-CONVENOR",
-        organization: "Parul University",
-        email: null,
-        image: "/assets/comittiee/bela.jpg"
-      }
-    ] as CommitteeMember[],
-    organizingChair: [
-    ] as CommitteeMember[],
-    technicalCommittee: [
-      {
-        name: "Saleem Raja A",
-        title: "Faculty",
-        organization: "IT Department, College of Computing and Information Science, University of Technology and Applied Science, Shinas Oman."
-      },
-      {
-        name: "Jayabarabu Ramakrishnan",
-        title: "Faculty",
-        organization: "Department of Information Technology and Security, College of Computer Science and Information Technology, Jazan University Kingdom of Saudi Arabia."
-      },
-      {
-        name: "Dr Feroz Khan A.B",
-        title: "Associate Professor",
-        organization: "Syed Hameedha College, Alagappa University."
-      },
-      {
-        name: "Dr. M. Ashok Kumar",
-        title: "Controller of Examination & HOD",
-        organization: "Bluecrest University, Monrovia Liberia."
-      },
-      {
-        name: "Dr. M. Selvakumar Samuel",
-        title: "Associate Professor",
-        organization: "Asia Pacific University of Technology and Innovation"
-      },
-      {
-        name: "Dr. Sc. Dedi Darwis",
-        title: "Professor",
-        organization: "Faculty of Engineering and Computer Science, Universitas Teknokrat Indonesia"
-      },
-      {
-        name: "Dyah Ayu Megawaty",
-        title: "Faculty",
-        organization: "Faculty of Engineering and Computer Science, Universitas Teknokrat Indonesia."
-      },
-      {
-        name: "Qadhi Jafar Adrian",
-        title: "Faculty",
-        organization: "Faculty of Engineering and Computer Science, Universitas Teknokrat Indonesian"
-      },
-      {
-        name: "Dr. Sampurna Dadi Riskiono",
-        title: "Faculty",
-        organization: "Faculty of Engineering and Computer Science, Indonesian University of Teknokrat"
-      },
-      {
-        name: "Dr. R. Elakkiya",
-        title: "Assistant Professor",
-        organization: "Department of Computer Science Birla Institute of Technology & Science, Pilani (Dubai Campus)"
-      },
-      {
-        name: "Dr. K. Ramalakshmi",
-        title: "Professor",
-        organization: "Alliance College of Engineering and Design, Alliance University."
-      },
-      {
-        name: "Dr. S. Umarani",
-        title: "Professor",
-        organization: "SRM Institute of Science and Technology, Chennai."
-      },
-      {
-        name: "Dr. Kumar Chadar",
-        title: "Professor (Decision Science)",
-        organization: "School of Business and Management Christ University."
-      },
-      {
-        name: "Dr. Kaliraj S",
-        title: "Associate Professor",
-        organization: "School of Computer Engineering Manipal University."
-      },
-      {
-        name: "M. Roshni Thanka",
-        title: "Assistant Professor of Computer Science",
-        organization: "Karunya University."
       }
     ],
     advisoryCommittee: [
@@ -368,11 +629,11 @@ export const conferenceConfig = {
       {
         name: "Dr. S. Aanjan Kumar",
         title: "Faculty",
-        organization: "School of Computing Science and Engineering, VIT Bhopar University"
+        organization: "School of Computing Science and Engineering, VIT Bhopal University"
       },
       {
         name: "SVN Santhosh Kumar",
-        title: "Associate Professor (world 2% scientist for 2025)",
+        title: "Associate Professor (World 2% Scientist for 2025)",
         organization: "SCORE, VIT-Vellore Campus"
       },
       {
@@ -383,149 +644,61 @@ export const conferenceConfig = {
       {
         name: "Dr. Sonal Jain",
         title: "Professor",
-        organization: "PG Department of CS and IT, Sardar Patel University, Vallabh Vidhyanagar Gujarat."
+        organization: "PG Department of CS and IT, Sardar Patel University, Vallabh Vidyanagar, Gujarat"
       },
       {
         name: "Dr. Paresh Vallabhbhai Virparia",
         title: "Professor",
-        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India."
+        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India"
       },
       {
         name: "Professor (Dr.) Darshan Choksi",
         title: "Professor",
-        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India."
+        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India"
       },
       {
         name: "Dr. Priti Srinivas Sajja",
         title: "Professor and Director",
-        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India."
+        organization: "Department of Computer Science, Sardar Patel University, Vallabh Vidyanagar 388 120, Gujarat, India"
       },
       {
         name: "Dr. Sanskruti Patel",
         title: "Dean & Professor",
         organization: "Charotar University of Science and Technology"
-      }
-    ],
-    internationalAdvisoryCommittee: [
-      {
-        name: "Dr. Ruchi Doshi",
-        title: "Professor",
-        organization: "Universidal Azteca, Mexico.",
-        image: null
       },
       {
-        name: "Dragan Pamucar",
+        name: "Dr. Kumbha Rana",
         title: "Faculty",
-        organization: "University of Belgrade, Faculty of Organizational Sciences, Department of Operations Research and Statistics, Belgrade, Serbia",
-        image: null
-      },
-      {
-        name: "Dr. Mohammad Tariqul Islam",
-        title: "Professor",
-        organization: "Universiti Kebangsaan Malaysia",
-        image: null
-      },
-      {
-        name: "Dr. Prasanalakshmi B",
-        title: "Professor",
-        organization: "King Khalid University, Abha, Saudi Arabia",
-        image: null
-      },
-      {
-        name: "Mr. Praveen Vaidya",
-        title: "Global Director of Quality, PPG Industries, USA",
-        organization: "PPG Industries, USA",
-        image: null
-      },
-      {
-        name: "Dr. Haipeng Liu",
-        title: "",
-        organization: "Coventry University, UK",
-        image: null
-      },
-      {
-        name: "Dr. Andrey Kuzmin",
-        title: "Professor",
-        organization: "Penza State University, Penza, Russia",
-        image: null
-      },
-      {
-        name: "Dr. Piyush Samant",
-        title: "Data Scientist",
-        organization: "Mirxes Laboratories Pvt. Ltd, Singapore",
-        image: null
-      },
-      {
-        name: "Dr. Vaibhav Gandhi",
-        title: "Director of Programs, Product and Design Engineering",
-        organization: "Middlesex University, London",
-        image: null
-      },
-      {
-        name: "Dr. Nikhil Medhekar",
-        title: "Professor, Department of Material Science",
-        organization: "Monash University, Melbourne, Australia",
-        image: null
-      },
-      {
-        name: "Dr. Akshay Saha",
-        title: "Professor",
-        organization: "Howard College Campus, South Africa",
-        image: null
-      },
-      {
-        name: "Dr. Manoj Kumar",
-        title: "Associate Professor, Faculty of Engineering and Information Sciences",
-        organization: "University of Wollongong in Dubai, UAE",
-        image: null
+        organization: "Saurashtra University"
       }
-    ],
-    publicationCommittee: [
-      { name: "Dr. Praveen Tomar", title: "Faculty", organization: "FITCS Parul University" },
-      { name: "Dr. Sumit Soni", title: "Faculty", organization: "FITCS Parul University" },
-      { name: "Dr. Ratnesh Namdeo", title: "Faculty", organization: "FITCS Parul University" },
-      { name: "Dr. Chetan Gondaliya", title: "Faculty", organization: "FITCS Parul University" },
-      { name: "Dr. Mohammad Altaf Dar", title: "Faculty", organization: "FITCS Parul University" },
-      { name: "Dr. Satyendra Sharma", title: "Faculty", organization: "FITCS Parul University" }
     ],
     steeringCommittee: [
-      { name: "Dr. Raj Sinha", title: "CRO", organization: "Faculty of information Technology & computer science, Vadodara, Gujarat", image: "/assets/comittiee/rajsinha-v2.jpg" },
-      { name: "Dr. Ramachandran P", title: "Assistant Professor", organization: "Faculty of information Technology & computer science, Vadodara, Gujarat", image: "/assets/comittiee/ramachandran-v2.jpg" },
-      { name: "Dr. Saswati Chatterjee", title: "Assistant Professor", organization: "Faculty of information Technology & computer science, Vadodara, Gujaratre", image: "/assets/comittiee/saswati-v2.jpg" }
+      { name: "Dr. Ramachandran P", title: "Assistant Professor", organization: "Faculty of Information Technology & Computer Science, Vadodara, Gujarat", image: "/assets/comittiee/ramachandran-v2.jpg" },
+      { name: "Dr. Saswati Chatterjee", title: "Assistant Professor", organization: "Faculty of Information Technology & Computer Science, Vadodara, Gujarat", image: "/assets/comittiee/saswati-v2.jpg" },
+      { name: "Dr. Raj Sinha", title: "CRO", organization: "Faculty of Information Technology & Computer Science, Vadodara, Gujarat", image: "/assets/comittiee/rajsinha-v2.jpg" }
     ],
-    executiveCommittee: [
-      { name: "Dr. Babita Chaube", title: "Campus Director", organization: "Parul University" },
-      { name: "Dr. Manisha Pathak", title: "Director (Academics)", organization: "Parul University" },
-      { name: "Dr. Pallavi Khedkar", title: "Director (Academics)", organization: "Parul University" },
-      { name: "Dr. Bhavesh Mewada", title: "Director, LAEP", organization: "Parul University" },
-      { name: "Dr. Vaibhav Gandhi", title: "Director, FDU", organization: "Parul University" },
-      { name: "Dr. Gordhan Jethwa", title: "Director, PINI", organization: "Parul University" },
-      { name: "Dr. Saurabh Shah", title: "Director, TACD", organization: "Parul University" }
-    ],
+    organizingChair: [
+      { name: "Dr. Abhishek Metha", title: "Convener", organization: "Parul University", email: null },
+      { name: "Prof. Vivek Dave", title: "Co-Convener", organization: "Parul University", email: null },
+      { name: "Dr. Bela Shah", title: "Co-Convener", organization: "Parul University", email: null }
+    ] as CommitteeMember[],
     organizationCommittee: [
       { name: "Prof. Jigar Bhawsar", title: "Faculty", organization: "Parul University" },
       { name: "Prof. Sohil Parmar", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Arun", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Arun U", title: "Faculty", organization: "Parul University" },
       { name: "Prof. Vijaya Tulsani", title: "Faculty", organization: "Parul University" },
       { name: "Prof. Yadagiri Rama Deepak", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Rinkal D. Sarvaiya", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Hardik parmar", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Hardik Parmar", title: "Faculty", organization: "Parul University" },
       { name: "Prof. Mehulkumar Dalwadi", title: "Faculty", organization: "Parul University" }
     ],
     promotionCommittee: [
-      { name: "Prof. Md Faruk Abdulla", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Rama Deepak", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Tanmay Shah", title: "Faculty", organization: "Parul University" },
       { name: "Prof. Adarsh Ashok", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Khyati Kariya", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Ronak Mehta", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. sathwik Chebrolu", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Ashutosh Solanki", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Lakshya Namdeo", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Rinku Patil", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Nirmit Shah", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Saumil B. Trivedi", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Vaishali Shah", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Vishakha N Bathwar", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Tanmay Shah", title: "Faculty", organization: "Parul University" }
+      { name: "Prof. Aesh Gada", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Shikha", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Vishakha", title: "Faculty", organization: "Parul University" },
+      { name: "Prof. Isha Sevak", title: "Faculty", organization: "Parul University" }
     ]
   },
   contact: {
@@ -566,6 +739,12 @@ export interface RegistrationFee {
   academic: number;
   industry: number;
   international: number;
+}
+
+export interface SessionChairTrack {
+  trackNumber: number;
+  trackName: string;
+  chairs: CommitteeMember[];
 }
 
 export type ConferenceConfig = typeof conferenceConfig;
