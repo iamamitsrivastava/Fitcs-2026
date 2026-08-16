@@ -188,7 +188,7 @@ export const conferenceConfig = {
     generalChair: [
       {
         name: "Dr. Priya Swaminarayan",
-        title: "Dean & Principal – Faculty of Information Technology and Computer Science",
+        title: "Dean & Director – Faculty of Information Technology and Computer Science",
         organization: "Parul University",
         role: "GENERAL CHAIR",
         image: "/assets/comittiee/dr-priyaswaminarayan.png"
@@ -280,12 +280,12 @@ export const conferenceConfig = {
       },
       {
         name: "Dr Savithri M",
-        title: "Faculty",
+        title: "Associate Professor",
         organization: "CHRIST (Deemed to be University), Pune Lavasa"
       },
       {
         name: "Dr. S. Aanjan Kumar",
-        title: "Faculty",
+        title: "Assistant Professor",
         organization: "School of Computing Science and Engineering, VIT Bhopal University"
       },
       {
@@ -325,7 +325,7 @@ export const conferenceConfig = {
       },
       {
         name: "Dr. Kumbha Rana",
-        title: "Faculty",
+        title: "Professor",
         organization: "Saurashtra University"
       }
     ],
@@ -413,33 +413,33 @@ export const conferenceConfig = {
       { name: "Dr. Saurabh Shah", title: "Director, TACD", organization: "Parul University" }
     ],
     publicationChair: [
-      { name: "Dr. Ratnesh Namdeo", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Chetan Gondaliya", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Mohammad Altaf Dar", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Satyendra Sharma", title: "Faculty", organization: "FITCS, Parul University" }
+      { name: "Dr. Ratnesh Namdeo", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Chetan Gondaliya", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Mohammad Altaf Dar", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Satyendra Sharma", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
     ],
     registrationChair: [
-      { name: "Prof. Vipul Gamit", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Ghanshyam Rathod", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Prof. Manish Joshi", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Prof. Mehul Dalwadi", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Payal Dhanesha", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Priyanka Mazumdar", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Vivek Vyas", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Dr. Ratnesh Namdeo", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Prof. Arun U", title: "Faculty", organization: "FITCS, Parul University" }
+      { name: "Prof. Vipul Gamit", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Ghanshyam Rathod", organization: "Associate Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Manish Joshi", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Mehul Dalwadi", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Payal Dhanesha", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Priyanka Mazumdar", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Vivek Vyas", organization: "Associate Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Dr. Ratnesh Namdeo", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Arun U", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
     ],
     financeChair: [
-      { name: "Dr. Vivek Dave", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Prof. Saumil Trivedi", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Prof. Sweta Jethva", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Prof. Sohil Parmar", title: "Faculty", organization: "FITCS, Parul University" },
-      { name: "Prof. Jigar Bhavsar", title: "Faculty", organization: "FITCS, Parul University" }
+      { name: "Dr. Vivek Dave", organization: "Associate Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Saumil Trivedi", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Sweta Jethva", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Sohil Parmar", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Jigar Bhavsar", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
     ],
     technicalChair: [
-      { name: "Dr. Digvijay Virpura", title: "Technical Chair", organization: "FITCS, Parul University" },
-      { name: "Prof. Hardik Parmar", title: "Technical Chair", organization: "FITCS, Parul University" },
-      { name: "Prof. Aniket Paul", title: "Technical Chair", organization: "FITCS, Parul University" }
+      { name: "Dr. Digvijay Virpura", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Hardik Parmar", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Aniket Paul", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
     ],
     technicalCommittee: [
       {
@@ -538,57 +538,57 @@ export const conferenceConfig = {
         trackNumber: 1,
         trackName: "Artificial Intelligence and Intelligent Systems",
         chairs: [
-          { name: "Prof. Mehul Dalwadi", title: "Faculty", organization: "Parul University" },
-          { name: "Prof. Vijya Tulsani", title: "Faculty", organization: "Parul University" }
+          { name: "Prof. Mehul Dalwadi", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+          { name: "Prof. Vijya Tulsani", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
         ]
       },
       {
         trackNumber: 2,
         trackName: "Sustainable Computing and Intelligent Applications",
         chairs: [
-          { name: "Dr. Ghanshyam Rathod", title: "Faculty", organization: "Parul University" },
-          { name: "Dr. Payal Dhanesha", title: "Faculty", organization: "Parul University" }
+          { name: "Dr. Ghanshyam Rathod", organization: "Associate Professor, Faculty of Information Technology & Computer Science" },
+          { name: "Dr. Payal Dhanesha", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
         ]
       },
       {
         trackNumber: 3,
         trackName: "AI Applications for Sustainable Development",
         chairs: [
-          { name: "Dr. Digvijay Virpura", title: "Faculty", organization: "Parul University" },
-          { name: "Dr. Priyanka Mazumdar", title: "Faculty", organization: "Parul University" }
+          { name: "Dr. Digvijay Virpura", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+          { name: "Dr. Priyanka Mazumdar", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
         ]
       },
       {
         trackNumber: 4,
         trackName: "Data Science, Cybersecurity and Emerging Technologies",
         chairs: [
-          { name: "Dr. Vivek Vyas", title: "Faculty", organization: "Parul University" },
-          { name: "Prof. Sweta Jethava", title: "Faculty", organization: "Parul University" }
+          { name: "Dr. Vivek Vyas", organization: "Associate Professor, Faculty of Information Technology & Computer Science" },
+          { name: "Prof. Sweta Jethava", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
         ]
       },
       {
         trackNumber: 5,
         trackName: "Smart Technologies and Intelligent Applications",
         chairs: [
-          { name: "Dr. Satyendra Sharma", title: "Faculty", organization: "Parul University" },
-          { name: "Dr. Saswati Chatterjee", title: "Faculty", organization: "Parul University" }
+          { name: "Dr. Satyendra Sharma", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+          { name: "Dr. Saswati Chatterjee", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
         ]
       }
     ],
     hospitalityAndTransportChair: [
-      { name: "Prof. Rama Deepak", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Tanmay Shah", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Adarsh Ashok", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Aesh Gada", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Shikha", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Vishakha", title: "Faculty", organization: "Parul University" },
-      { name: "Prof. Isha Sevak", title: "Faculty", organization: "Parul University" }
+      { name: "Prof. Rama Deepak", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Tanmay Shah", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Adarsh Ashok", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Aesh Gada", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Shikha", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Vishakha", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" },
+      { name: "Prof. Isha Sevak", organization: "Assistant Professor, Faculty of Information Technology & Computer Science" }
     ],
     // Backwards compatibility aliases
     convenors: [
       {
         name: "Dr. Priya Swaminarayan",
-        title: "Dean & Principal – Faculty of Information Technology and Computer Science",
+        title: "Dean & Director – Faculty of Information Technology and Computer Science",
         role: "GENERAL CHAIR",
         organization: "Parul University",
         image: "/assets/comittiee/dr-priyaswaminarayan.png"
@@ -623,12 +623,12 @@ export const conferenceConfig = {
       },
       {
         name: "Dr Savithri M",
-        title: "Faculty",
+        title: "Associate Professor",
         organization: "CHRIST (Deemed to be University), Pune Lavasa"
       },
       {
         name: "Dr. S. Aanjan Kumar",
-        title: "Faculty",
+        title: "Assistant Professor",
         organization: "School of Computing Science and Engineering, VIT Bhopal University"
       },
       {
@@ -668,7 +668,7 @@ export const conferenceConfig = {
       },
       {
         name: "Dr. Kumbha Rana",
-        title: "Faculty",
+        title: "Professor",
         organization: "Saurashtra University"
       }
     ],
@@ -717,7 +717,7 @@ export interface ConferenceTrack {
 
 export interface CommitteeMember {
   name: string;
-  title: string;
+  title?: string;
   organization: string;
   country?: string;
   email?: string | null;

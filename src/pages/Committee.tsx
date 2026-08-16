@@ -4,8 +4,7 @@ import React from "react";
 import { 
   Globe, 
   GraduationCap, 
-  Building2, 
-  Sparkles
+  Building2 
 } from "lucide-react";
 import { 
   conferenceConfig, 
@@ -69,13 +68,6 @@ const SpotlightProfileCard = ({
           </div>
         )}
       </div>
-
-      {isChief && (
-        <div className="absolute -bottom-2.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 px-3 py-0.5 rounded-full text-[11px] font-extrabold uppercase tracking-widest shadow-md flex items-center gap-1 whitespace-nowrap">
-          <Sparkles className="w-3 h-3 fill-slate-950" />
-          Patron-in-Chief
-        </div>
-      )}
     </div>
 
     {/* Role Badge */}
@@ -119,29 +111,29 @@ const FacultyMemberCard = ({
 }) => (
   <motion.div 
     variants={itemVariants} 
-    className="group relative flex flex-col justify-between p-5 bg-[#131d31]/70 hover:bg-[#18253e] rounded-xl border border-slate-800/80 hover:border-yellow-400/40 transition-all duration-300 shadow-md hover:shadow-[0_0_20px_rgba(250,204,21,0.1)] hover:-translate-y-0.5"
+    className="group relative flex flex-col justify-between p-5 bg-[#131d31]/70 hover:bg-[#18253e] rounded-xl border border-slate-800/80 hover:border-yellow-400/40 transition-all duration-300 shadow-md hover:shadow-[0_0_20px_rgba(250,204,21,0.1)] hover:-translate-y-0.5 min-w-0"
   >
-    <div>
-      <div className="flex items-start justify-between gap-2 mb-2">
+    <div className="min-w-0">
+      <div className="flex items-start justify-between gap-2 mb-2 flex-wrap sm:flex-nowrap">
         {roleBadge && (
-          <span className="text-[10px] font-bold uppercase tracking-wider text-yellow-400/90 bg-yellow-400/10 border border-yellow-400/20 px-2 py-0.5 rounded">
+          <span className="text-[10px] font-bold uppercase tracking-wider text-yellow-400/90 bg-yellow-400/10 border border-yellow-400/20 px-2 py-0.5 rounded shrink-0">
             {roleBadge}
           </span>
         )}
         {(showCountry || member.country) && (
-          <span className="ml-auto text-[10px] font-medium uppercase tracking-wider text-cyan-300 bg-cyan-950/60 border border-cyan-800/50 px-2 py-0.5 rounded flex items-center gap-1">
+          <span className="ml-auto text-[10px] font-medium uppercase tracking-wider text-cyan-300 bg-cyan-950/60 border border-cyan-800/50 px-2 py-0.5 rounded flex items-center gap-1 shrink-0">
             <Globe className="w-2.5 h-2.5" />
             {member.country || "International"}
           </span>
         )}
       </div>
 
-      <div className="mt-1">
-        <h4 className="text-slate-100 font-semibold text-base leading-snug group-hover:text-yellow-100 transition-colors">
+      <div className="mt-1 min-w-0">
+        <h4 className="text-slate-100 font-semibold text-base leading-snug group-hover:text-yellow-100 transition-colors break-words">
           {member.name}
         </h4>
         {member.title && (
-          <p className="text-slate-400 text-xs leading-relaxed mt-1">
+          <p className="text-slate-400 text-xs leading-relaxed mt-1 break-words">
             {member.title}
           </p>
         )}
@@ -149,9 +141,9 @@ const FacultyMemberCard = ({
     </div>
 
     {member.organization && (
-      <div className="mt-3 pt-2.5 border-t border-slate-800/70 flex items-center gap-1.5 text-slate-400 group-hover:text-slate-300 text-xs">
-        <Building2 className="w-3 h-3 text-yellow-400/70 flex-shrink-0" />
-        <span className="truncate">{member.organization}</span>
+      <div className="mt-3 pt-2.5 border-t border-slate-800/70 flex items-start gap-1.5 text-slate-400 group-hover:text-slate-300 text-xs min-w-0">
+        <Building2 className="w-3.5 h-3.5 text-yellow-400/70 shrink-0 mt-0.5" />
+        <span className="leading-relaxed break-words">{member.organization}</span>
       </div>
     )}
   </motion.div>
@@ -518,11 +510,11 @@ const Committee = () => {
                         Designated Session Chairs:
                       </p>
                       {session.chairs.map((chair: CommitteeMember, cIdx: number) => (
-                        <div key={`sc-chair-${cIdx}`} className="flex items-center gap-2.5 bg-slate-900/50 p-2.5 rounded-lg border border-slate-800">
-                          <div className="w-2 h-2 rounded-full bg-yellow-400" />
+                        <div key={`sc-chair-${cIdx}`} className="flex items-start gap-2.5 bg-slate-900/50 p-2.5 rounded-lg border border-slate-800">
+                          <div className="w-2 h-2 rounded-full bg-yellow-400 mt-1.5 shrink-0" />
                           <div className="min-w-0 flex-1">
-                            <p className="text-slate-100 text-sm font-semibold truncate">{chair.name}</p>
-                            <p className="text-slate-400 text-xs truncate">{chair.organization}</p>
+                            <p className="text-slate-100 text-sm font-semibold break-words">{chair.name}</p>
+                            <p className="text-slate-400 text-xs break-words leading-relaxed mt-0.5">{chair.organization}</p>
                           </div>
                         </div>
                       ))}

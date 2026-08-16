@@ -43,10 +43,7 @@ const Navbar = () => {
           <span>Committee</span>
         </span>
       ),
-      href: "/committee",
-      subItems: [
-        { label: "Committee Responsibilities", href: "/committee-responsibilities" }
-      ]
+      href: "/committee"
     },
     { id: "speakers", label: "Keynote Speakers", href: "/speakers" },
     { id: "topics", label: "Conference Theme", href: "/topics" },
