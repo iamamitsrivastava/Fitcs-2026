@@ -137,7 +137,7 @@ export default function Partners() {
             <Image
               src={partner.logo}
               alt={`${partner.name} logo`}
-              fill
+              fill sizes="100vw"
               className="object-contain p-1 group-hover:scale-105 transition-transform duration-300"
             />
           </div>
@@ -252,7 +252,7 @@ export default function Partners() {
                 <Image
                   src="/assets/lakshya_2047.jpg"
                   alt="Conference Venue Lakshya 2047"
-                  fill
+                  fill sizes="100vw"
                   className="object-cover hover:scale-105 transition-transform duration-700"
                 />
               </div>
@@ -300,7 +300,7 @@ export default function Partners() {
                   <Image
                     src="/assets/fitcs/fitcs-1.png"
                     alt="FITCS Lab 1"
-                    fill
+                    fill sizes="100vw"
                     className="object-cover"
                   />
                 </div>
@@ -308,7 +308,7 @@ export default function Partners() {
                   <Image
                     src="/assets/fitcs/fitcs-2.png"
                     alt="FITCS Lab 2"
-                    fill
+                    fill sizes="100vw"
                     className="object-cover"
                   />
                 </div>
@@ -316,7 +316,7 @@ export default function Partners() {
                   <Image
                     src="/assets/fitcs/fitcs-3.png"
                     alt="FITCS Drone 3"
-                    fill
+                    fill sizes="100vw"
                     className="object-cover"
                   />
                 </div>
@@ -354,7 +354,7 @@ export default function Partners() {
                 <Image
                   src="/assets/main_gate_v2.png"
                   alt="Parul University Campus"
-                  fill
+                  fill sizes="100vw"
                   className="object-cover hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute bottom-6 left-6 bg-[#0f172a] rounded-xl p-3 border border-yellow-500/30 shadow-2xl flex items-center gap-3 backdrop-blur-md">

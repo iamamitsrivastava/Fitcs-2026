@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 const Registration = () => {
   return (
-    <div className="min-h-screen bg-[#f8f9fa] pt-32 pb-24 font-sans">
-      <div className="container mx-auto px-4 max-w-6xl">
+    <div className="min-h-screen bg-[#f8f9fa] pt-32 font-sans flex flex-col">
+      <div className="container mx-auto px-4 max-w-6xl pb-24 flex-grow">
         <h1 className="text-4xl md:text-5xl font-bold text-[#0a192f] text-center mb-12 font-serif">
           Registration
         </h1>
@@ -308,6 +308,22 @@ const Registration = () => {
           </div>
         </div>
       </div>
+
+      {/* Publishers Section */}
+      <section className="py-16 bg-[#0f172a] relative border-t border-slate-800">
+        <div className="container mx-auto px-4 relative z-10 text-center">
+          <p className="text-sm md:text-base font-semibold tracking-[0.3em] text-yellow-400 uppercase mb-4">PUBLISHERS</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-12 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
+            Our <span className="text-yellow-300 drop-shadow-[0_0_15px_rgba(250,204,21,0.6)]">Publishing Partners</span>
+          </h1>
+          
+          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 w-full max-w-4xl mx-auto">
+            <div className="bg-white p-2 md:p-4 rounded-2xl shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(250,204,21,0.2)] transition-shadow duration-300 w-full flex items-center justify-center group overflow-hidden">
+              <img src="/assets/publishers/image.png" alt="Publishers Indexing" className="w-full h-auto object-contain rounded-xl group-hover:scale-[1.01] transition-transform duration-300" />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
