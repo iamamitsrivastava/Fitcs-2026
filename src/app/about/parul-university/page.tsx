@@ -49,7 +49,7 @@ export default function AboutParulUniversityPage() {
                 <Image
                   src="/assets/main_gate_v2.png"
                   alt="Parul University Main Gate"
-                  fill
+                  fill sizes="100vw"
                   className="object-cover"
                 />
               </div>
@@ -57,7 +57,7 @@ export default function AboutParulUniversityPage() {
                 <Image
                   src="/assets/pu_admin_side.webp"
                   alt="Parul University Campus"
-                  fill
+                  fill sizes="100vw"
                   className="object-cover"
                 />
               </div>

@@ -34,7 +34,7 @@ export default function PreConferenceWorkshop() {
                 <Image
                   src={workshop.image}
                   alt={workshop.alt}
-                  fill
+                  fill sizes="100vw"
                   className="object-contain"
                 />
               </div>
