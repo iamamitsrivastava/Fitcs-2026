@@ -124,12 +124,12 @@ const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center space-x-1 md:space-x-2 xl:space-x-4 ml-4 lg:ml-8">
-            <a href="/registration" className="relative group flex items-center justify-center">
+            <Link href="/registration" className="relative group flex items-center justify-center">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 to-yellow-600 blur opacity-60 animate-pulse group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
               <button className="relative bg-gradient-to-r from-[#FFD700] to-[#FFC107] text-black font-bold text-xs md:text-sm xl:text-base px-5 py-2 rounded-none border-2 border-[#FFD700] hover:from-[#FFC107] hover:to-[#FFD700] transition-all duration-300">
                 Register
               </button>
-            </a>
+            </Link>
           </div>
 
           {/* Mobile Menu Toggle */}

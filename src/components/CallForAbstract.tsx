@@ -277,9 +277,15 @@ const CallForAbstract = () => {
               Submit your papers before the deadline and join us in advancing sustainable agriculture and food systems.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
-              <Button size="lg" className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded px-8 py-6 text-lg w-full sm:w-auto" onClick={() => window.location.href = 'mailto:fitcs.conference@paruluniversity.ac.in?subject=Abstract Submission'}>
-                <Send className="w-5 h-5 mr-2" />
-                Submit Your Paper
+              <Button asChild size="lg" className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded px-8 py-6 text-lg w-full sm:w-auto cursor-pointer">
+                <a
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Send className="w-5 h-5 mr-2" />
+                  Submit Your Paper
+                </a>
               </Button>
               <Button size="lg" variant="outline" className="border-gray-500 text-gray-300 bg-transparent hover:bg-white hover:text-black transition-colors rounded px-8 py-6 text-lg w-full sm:w-auto">
                 <Mail className="w-5 h-5 mr-2" />

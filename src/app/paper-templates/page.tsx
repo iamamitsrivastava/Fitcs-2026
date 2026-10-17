@@ -197,9 +197,15 @@ const PaperTemplatesPage = () => {
           {/* Action Buttons */}
           <div className="text-center mt-12">
             <div className="flex flex-wrap justify-center gap-4">
-              <Button size="lg" className="bg-gradient-to-r from-red-600 to-black hover:shadow-lg">
-                <Mail className="w-5 h-5 mr-2" />
-                Submit Your Paper
+              <Button asChild size="lg" className="bg-gradient-to-r from-red-600 to-black hover:shadow-lg cursor-pointer">
+                <a
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Mail className="w-5 h-5 mr-2" />
+                  Submit Your Paper
+                </a>
               </Button>
               <Link href="/">
                 <Button size="lg" variant="outline" className="border-red-600 text-red-600 hover:bg-red-600 hover:text-white">
