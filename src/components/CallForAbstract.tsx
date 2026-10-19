@@ -43,76 +43,84 @@ const CallForAbstract = () => {
               <span className="text-white">SUBMISSION </span>
               <span className="text-[#facc15]">GUIDELINES</span>
             </h2>
-            <p className="text-gray-300 text-sm md:text-base leading-relaxed font-medium">
+            <p className="text-gray-300 text-sm md:text-base leading-relaxed font-medium max-w-3xl mx-auto">
               Please ensure that your manuscript complies with the conference requirements before submission.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Author Instructions Card */}
-            <div className="bg-[#151b2b] p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col h-full">
-              <h3 className="text-2xl font-bold text-white mb-6 font-serif">Author Instructions</h3>
-              <ul className="space-y-4 text-gray-300 flex-1 text-sm md:text-base">
-                <li className="flex items-start">
-                  <span className="text-[#facc15] mr-3 mt-1">•</span>
-                  <span>Use the IEEE conference paper format.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#facc15] mr-3 mt-1">•</span>
-                  <span>Paper length: 6 pages in standard IEEE format.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#facc15] mr-3 mt-1">•</span>
-                  <span>Paper Format <a href="#" className="text-[#3b82f6] font-semibold hover:underline">Word and LaTex Templates</a></span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#facc15] mr-3 mt-1">•</span>
-                  <span><strong>LaTeX</strong> is the preferred submission format due to its compatibility with the publication workflow and its ability to facilitate faster processing.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#facc15] mr-3 mt-1">•</span>
-                  <span>Submit only original and unpublished work.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#facc15] mr-3 mt-1">•</span>
-                  <span>No simultaneous submissions elsewhere.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-[#facc15] mr-3 mt-1">•</span>
-                  <span>Double-blind peer review applies.</span>
-                </li>
-              </ul>
+            <div className="bg-[#151b2b] p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col h-full hover:border-gray-700 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-white mb-6 font-serif flex items-center gap-3">
+                <FileText className="w-6 h-6 text-[#facc15]" />
+                <span>Author Instructions</span>
+              </h3>
+
+              <div className="space-y-5 text-gray-300 text-sm md:text-base leading-relaxed flex-1">
+                <p>
+                  The authors are invited to submit the Full Length Research/Review Papers. The papers will be peer-reviewed and only the accepted and registered papers will be considered for presentation during the conference and publication in the proceedings.
+                </p>
+
+                <div className="bg-[#10141f] border-l-4 border-red-500/80 p-4 rounded-r-lg">
+                  <p className="text-gray-300 text-sm leading-relaxed">
+                    The organizers of <strong className="text-white font-semibold">AISCT 2027</strong> regard plagiarism as serious professional misconduct. All submissions will be screened for plagiarism and when identified, the submissions will be rejected.
+                  </p>
+                </div>
+
+                <div className="bg-[#10141f] border-l-4 border-[#facc15] p-4 rounded-r-lg">
+                  <p className="text-gray-300 text-sm leading-relaxed">
+                    The <strong className="text-white font-semibold">AISCT 2027</strong> does not encourage withdrawals after the paper is accepted.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-gray-800">
+                <Button
+                  onClick={() => downloadFile('CMT_Guideline.pdf')}
+                  className="bg-transparent hover:bg-[#cca300] text-[#cca300] hover:text-black border-2 border-[#cca300] font-bold rounded-lg px-6 py-5 text-base transition-all duration-200 flex items-center justify-center gap-2 w-full sm:w-auto shadow-sm"
+                >
+                  <Download className="w-5 h-5 mr-1" /> Download Guidelines
+                </Button>
+              </div>
             </div>
 
             {/* Submission Portal Card */}
-            <div className="bg-[#151b2b] p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col h-full">
-              <h3 className="text-2xl font-bold text-white mb-6 font-serif">Submission Portal</h3>
-              
-              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-8">
-                The conference management system link is currently marked as <strong>CMT by Microsoft.</strong>
-              </p>
+            <div className="bg-[#151b2b] p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col h-full hover:border-gray-700 transition-all duration-300">
+              <h3 className="text-2xl font-bold text-white mb-6 font-serif flex items-center gap-3">
+                <Send className="w-6 h-6 text-[#facc15]" />
+                <span>Submission Portal</span>
+              </h3>
 
-              <p className="text-gray-300 text-sm md:text-base leading-relaxed mb-8">
-                The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
-              </p>
+              <div className="space-y-5 text-gray-300 text-sm md:text-base leading-relaxed flex-1">
+                <p>
+                  The conference management system link is currently marked as <strong className="text-white font-semibold">CMT by Microsoft.</strong>
+                </p>
 
-              <div className="flex-1" />
+                <div className="border border-blue-500/40 bg-[#101930] rounded-lg p-5 shadow-inner">
+                  <p className="text-blue-100/90 text-sm md:text-base leading-relaxed">
+                    <strong className="text-[#60a5fa] font-bold">CMT ACKNOWLEDGMENT:</strong> The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as software development and support. We use the Microsoft CMT for submission of papers and the review process.
+                  </p>
+                </div>
 
-              <div>
-                <a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027" target="_blank" rel="noopener noreferrer" className="inline-block">
-                  <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold rounded-full px-8 py-6 text-base">
+                <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                  Unregistered authors should first create an account on Microsoft CMT to log in. All submissions need to be submitted through the Microsoft CMT Portal. At least one of the authors of an accepted paper needs to register for the conference and to present the paper(s), through an Online Mode presentation.
+                </p>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-gray-800">
+                <a
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full sm:w-auto"
+                >
+                  <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold rounded-full px-8 py-5 text-base w-full sm:w-auto shadow-md">
                     Submission Link
                   </Button>
                 </a>
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="flex justify-center mb-12">
-          <Button className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded-none px-8 py-6 text-lg shadow-[0_0_15px_rgba(250,204,21,0.3)] w-full md:w-auto" onClick={() => downloadFile('author-guidelines.pdf')}>
-            <Download className="w-5 h-5 mr-3" /> DOWNLOAD AUTHOR GUIDELINES
-          </Button>
         </div>
 
         {/* 2. DOWNLOAD ABSTRACT FORMAT */}
