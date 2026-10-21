@@ -447,7 +447,7 @@ const Registration = () => {
 
             <p className="text-base sm:text-lg md:text-2xl font-bold tracking-wide text-white uppercase leading-relaxed font-serif max-w-3xl mx-auto drop-shadow-sm">
               ALL ACCEPTED AND PRESENTED PAPERS WILL BE PUBLISHED IN{" "}
-              <span className="text-[#facc15]">PICET CONFERENCE PROCEEDINGS</span>
+              <span className="text-[#facc15]">AISCT 2027 CONFERENCE PROCEEDINGS</span>
             </p>
           </div>
         </div>
