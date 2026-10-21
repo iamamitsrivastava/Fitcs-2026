@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { BookOpen } from "lucide-react";
 
 const Topics = () => {
   const tracks = [
@@ -139,18 +140,26 @@ const Topics = () => {
         </div>
       </section>
 
-      {/* Publishers Section */}
-      <section className="py-16 bg-[#0f172a] relative border-t border-slate-800">
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <p className="text-sm md:text-base font-semibold tracking-[0.3em] text-yellow-400 uppercase mb-4">PUBLISHERS</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-12 text-white drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]">
-            Our <span className="text-yellow-300 drop-shadow-[0_0_15px_rgba(250,204,21,0.6)]">Publishing Partners</span>
-          </h1>
-          
-          <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24 w-full max-w-4xl mx-auto">
-            <div className="bg-white p-2 md:p-4 rounded-2xl shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(250,204,21,0.2)] transition-shadow duration-300 w-full flex items-center justify-center group overflow-hidden">
-              <img src="/assets/publishers/image.png" alt="Publishers Indexing" className="w-full h-auto object-contain rounded-xl group-hover:scale-[1.01] transition-transform duration-300" />
+      {/* Publication Section */}
+      <section className="py-16 md:py-20 bg-[#0f172a] relative border-t border-slate-800">
+        <div className="container mx-auto px-4 relative z-10 text-center max-w-4xl">
+          <p className="text-xs md:text-sm font-bold tracking-[0.3em] text-[#facc15] uppercase mb-3">
+            CONFERENCE PROCEEDINGS
+          </p>
+          <h2 className="text-3xl md:text-5xl font-bold font-serif mb-8 text-white tracking-wide">
+            <span className="text-white">PUB</span>
+            <span className="text-[#facc15]">LICATION</span>
+          </h2>
+
+          <div className="bg-[#121c33]/90 border-2 border-[#facc15]/40 rounded-2xl p-8 md:p-12 shadow-[0_0_35px_rgba(250,204,21,0.15)] backdrop-blur-md transition-all duration-300 hover:border-[#facc15]/70 hover:shadow-[0_0_45px_rgba(250,204,21,0.25)]">
+            <div className="w-16 h-16 rounded-full bg-[#facc15]/10 border border-[#facc15]/40 flex items-center justify-center mx-auto mb-6 text-[#facc15] shadow-[0_0_20px_rgba(250,204,21,0.2)]">
+              <BookOpen className="w-8 h-8" />
             </div>
+
+            <p className="text-base sm:text-lg md:text-2xl font-bold tracking-wide text-white uppercase leading-relaxed font-serif max-w-3xl mx-auto drop-shadow-sm">
+              ALL ACCEPTED AND PRESENTED PAPERS WILL BE PUBLISHED IN{" "}
+              <span className="text-[#facc15]">PICET CONFERENCE PROCEEDINGS</span>
+            </p>
           </div>
         </div>
       </section>
