@@ -123,23 +123,6 @@ const CallForAbstract = () => {
           </div>
         </div>
 
-        {/* 2. DOWNLOAD ABSTRACT FORMAT */}
-        <div className="mb-20">
-          <Card className="p-8 md:p-12 bg-gray-900/50 border border-gray-800 backdrop-blur-sm shadow-lg transition-all duration-300 hover:border-gray-600">
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-              <div className="flex-1">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#facc15] mb-4 font-serif">Download Abstract Format</h2>
-                <p className="text-gray-300 text-sm md:text-base leading-relaxed">
-                  Start by downloading our abstract format to prepare your submission. This will help ensure your paper meets all requirements.
-                </p>
-              </div>
-              <Button size="lg" className="bg-white text-black hover:bg-gray-200 font-bold px-8 shadow-lg w-full md:w-auto" onClick={() => downloadFile('abstract-format.pdf')}>
-                <Download className="w-5 h-5 mr-2" />
-                Download Format
-              </Button>
-            </div>
-          </Card>
-        </div>
 
         {/* 3 & 4. MANUSCRIPT REQUIREMENTS & REFERENCES */}
         <div className="mb-20">
