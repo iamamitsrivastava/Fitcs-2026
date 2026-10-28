@@ -42,37 +42,37 @@ interface FeeTier {
 const feeData = [
   {
     category: "Research Scholar (MCA / M.Sc. / M.Tech. / Ph.D.)",
-    delegates: "1500 INR",
-    earlyBird: "2000 INR",
-    regular: "2500 INR",
+    delegates: "1500 INR*",
+    earlyBird: "2000 INR*",
+    regular: "2500 INR*",
     currency: "INR" as const,
   },
   {
     category: "Academicians",
-    delegates: "2000 INR",
-    earlyBird: "2500 INR",
-    regular: "3000 INR",
+    delegates: "2000 INR*",
+    earlyBird: "2500 INR*",
+    regular: "3000 INR*",
     currency: "INR" as const,
   },
   {
     category: "Industry",
-    delegates: "2500 INR",
-    earlyBird: "3000 INR",
-    regular: "3500 INR",
+    delegates: "2500 INR*",
+    earlyBird: "3000 INR*",
+    regular: "3500 INR*",
     currency: "INR" as const,
   },
   {
     category: "Foreign Student",
-    delegates: "25 USD",
-    earlyBird: "50 USD",
-    regular: "75 USD",
+    delegates: "25 USD*",
+    earlyBird: "50 USD*",
+    regular: "75 USD*",
     currency: "USD" as const,
   },
   {
     category: "Foreign Delegates",
-    delegates: "50 USD",
-    earlyBird: "100 USD",
-    regular: "125 USD",
+    delegates: "50 USD*",
+    earlyBird: "100 USD*",
+    regular: "125 USD*",
     currency: "USD" as const,
   },
 ];
@@ -125,7 +125,7 @@ const Registration = () => {
   const [selectedTier, setSelectedTier] = useState<FeeTier>({
     category: "Research Scholar (MCA / M.Sc. / M.Tech. / Ph.D.)",
     type: "Contributor - Early Bird",
-    amount: "2000 INR",
+    amount: "2000 INR*",
     currency: "INR",
     deadline: "15/12/2026",
   });
@@ -408,14 +408,22 @@ const Registration = () => {
           </div>
 
           {/* Table Footer Instructions */}
-          <div className="p-4 md:p-6 bg-[#0d1424] border-t border-gray-800 text-xs text-gray-400 flex flex-col md:flex-row justify-between items-center gap-3 text-center md:text-left">
-            <div className="flex items-center gap-2">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#facc15]" />
-              <span>
-                All amounts are inclusive of conference kit, technical session entry, certificates, lunch, and refreshments.
-              </span>
+          <div className="p-4 md:p-6 bg-[#0d1424] border-t border-gray-800 text-xs text-gray-400 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4 text-left">
+            <div className="space-y-2">
+              <div className="flex items-start gap-2.5">
+                <span className="w-2 h-2 rounded-full bg-[#facc15] flex-shrink-0 mt-1.5" />
+                <span className="text-gray-300">
+                  All amounts are inclusive of conference kit, technical session entry, certificates, lunch, and refreshments.
+                </span>
+              </div>
+              <div className="flex items-start gap-2.5">
+                <span className="w-2 h-2 rounded-full bg-[#facc15] flex-shrink-0 mt-1.5" />
+                <span className="text-[#facc15] font-semibold">
+                  *Excluding the publication charges, we will send all the papers.
+                </span>
+              </div>
             </div>
-            <div className="text-gray-300">
+            <div className="text-gray-300 flex-shrink-0">
               Need assistance? Email:{" "}
               <a
                 href="mailto:fitcs.conference@paruluniversity.ac.in"
@@ -446,8 +454,8 @@ const Registration = () => {
             </div>
 
             <p className="text-base sm:text-lg md:text-2xl font-bold tracking-wide text-white uppercase leading-relaxed font-serif max-w-3xl mx-auto drop-shadow-sm">
-              ALL ACCEPTED AND PRESENTED PAPERS WILL BE PUBLISHED IN{" "}
-              <span className="text-[#facc15]">AISCT 2027 CONFERENCE PROCEEDINGS</span>
+              All Accepted Full Papers will be submitted to the{" "}
+              <span className="text-[#facc15]">publication partners</span>
             </p>
           </div>
         </div>
