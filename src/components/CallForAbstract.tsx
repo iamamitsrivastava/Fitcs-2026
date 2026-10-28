@@ -102,7 +102,7 @@ const CallForAbstract = () => {
 
               <div className="mt-8 pt-6 border-t border-gray-800 flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAISCT2027"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block w-full sm:w-auto"
@@ -269,7 +269,7 @@ const CallForAbstract = () => {
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-8">
               <Button asChild size="lg" className="bg-[#cca300] hover:bg-[#cca300]/90 text-black font-bold uppercase rounded px-8 py-6 text-lg w-full sm:w-auto cursor-pointer">
                 <a
-                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAISCT2027"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

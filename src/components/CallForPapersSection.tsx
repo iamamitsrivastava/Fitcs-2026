@@ -204,7 +204,7 @@ const CallForPapersSection = ({ id }: { id?: string }) => {
                     className="bg-white text-black hover:bg-gray-200 shadow-[0_0_15px_rgba(255,255,255,0.5)] hover:shadow-[0_0_25px_rgba(255,255,255,0.8)] transition-all cursor-pointer"
                   >
                     <a
-                      href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
+                      href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAISCT2027"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

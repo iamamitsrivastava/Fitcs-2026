@@ -199,7 +199,7 @@ const PaperTemplatesPage = () => {
             <div className="flex flex-wrap justify-center gap-4">
               <Button asChild size="lg" className="bg-gradient-to-r from-red-600 to-black hover:shadow-lg cursor-pointer">
                 <a
-                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
+                  href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAISCT2027"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
