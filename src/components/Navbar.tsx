@@ -50,6 +50,7 @@ const Navbar = () => {
 
     { id: "call", label: "Call for Abstract", href: "/call-for-abstract" },
     { id: "ethics", label: "Publishing Ethics", href: "/publishing-ethics" },
+    { id: "downloads", label: "Downloads", href: "/downloads" },
     { id: "dates", label: "Important Dates", href: "/important-dates" },
     { id: "venue", label: "Venue", href: "/venue" },
   ];

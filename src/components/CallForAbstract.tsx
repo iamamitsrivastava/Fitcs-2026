@@ -74,15 +74,8 @@ const CallForAbstract = () => {
                 </div>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-gray-800">
-                <Button
-                  onClick={() => downloadFile('CMT_Guideline.pdf')}
-                  className="bg-transparent hover:bg-[#cca300] text-[#cca300] hover:text-black border-2 border-[#cca300] font-bold rounded-lg px-6 py-5 text-base transition-all duration-200 flex items-center justify-center gap-2 w-full sm:w-auto shadow-sm"
-                >
-                  <Download className="w-5 h-5 mr-1" /> Download Guidelines
-                </Button>
-              </div>
             </div>
+
 
             {/* Submission Portal Card */}
             <div className="bg-[#151b2b] p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col h-full hover:border-gray-700 transition-all duration-300">
@@ -107,7 +100,7 @@ const CallForAbstract = () => {
                 </p>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-gray-800">
+              <div className="mt-8 pt-6 border-t border-gray-800 flex flex-col sm:flex-row gap-4">
                 <a
                   href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICDSE2027"
                   target="_blank"
@@ -118,6 +111,12 @@ const CallForAbstract = () => {
                     Submission Link
                   </Button>
                 </a>
+                <Button
+                  onClick={() => downloadFile('CMT_Guideline.pdf')}
+                  className="bg-transparent hover:bg-[#cca300] text-[#cca300] hover:text-black border-2 border-[#cca300] font-bold rounded-lg px-6 py-5 text-base transition-all duration-200 flex items-center justify-center gap-2 w-full sm:w-auto shadow-sm"
+                >
+                  <Download className="w-5 h-5 mr-1" /> Download Guidelines
+                </Button>
               </div>
             </div>
           </div>
