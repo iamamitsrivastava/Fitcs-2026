@@ -74,13 +74,13 @@ const Hero = () => {
                   </p>
                   <div className="h-[1px] w-16 bg-gradient-to-l from-transparent to-[#FFD700]/70"></div>
                 </div>
-                <div className="flex items-center justify-center gap-8 md:gap-12 mt-0">
+                <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 md:gap-10 mt-0">
                   <Image
                     src="/assets/partners/universitas-teknokra-indonesia-logo.png"
                     alt="Universitas Teknokrat Indonesia"
                     width={220}
                     height={220}
-                    className="h-28 md:h-36 lg:h-40 w-auto object-contain drop-shadow-lg"
+                    className="h-24 sm:h-28 md:h-32 lg:h-36 w-auto object-contain drop-shadow-lg"
                   />
 
                   <Image
@@ -88,8 +88,18 @@ const Hero = () => {
                     alt="Infolink University College"
                     width={240}
                     height={240}
-                    className="h-32 md:h-40 lg:h-44 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)] mt-4 md:mt-6"
+                    className="h-28 sm:h-32 md:h-36 lg:h-40 w-auto object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.3)] mt-2 md:mt-4"
                   />
+
+                  <div className="bg-white rounded-xl px-3 py-2 sm:px-4 sm:py-2.5 shadow-[0_0_20px_rgba(255,255,255,0.2)] border border-white/30 flex items-center justify-center">
+                    <Image
+                      src="/assets/partners/scitepress-logo.png"
+                      alt="SCITEPRESS Digital Library"
+                      width={240}
+                      height={100}
+                      className="h-12 sm:h-14 md:h-16 lg:h-20 w-auto object-contain"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
