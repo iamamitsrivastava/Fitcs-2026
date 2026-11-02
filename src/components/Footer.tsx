@@ -66,9 +66,28 @@ const Footer = () => {
                   Parul University, PO Limda, Vadodara, Gujarat 391760, India
                 </p>
               </div>
-              <div className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-white flex-shrink-0 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
-                <p className="text-sm text-gray-300 drop-shadow-[0_0_5px_rgba(255,255,255,0.2)]">+91 9384345662</p>
+              <div className="flex items-start space-x-3">
+                <Phone className="w-4 h-4 text-white mt-1 flex-shrink-0 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
+                <div className="text-sm text-gray-300 space-y-2 drop-shadow-[0_0_5px_rgba(255,255,255,0.2)]">
+                  <div>
+                    <span className="text-white font-medium block">Dr. Ramachandran P</span>
+                    <a href="tel:+919384345662" className="text-gray-300 hover:text-white transition-colors">
+                      +91 93843 45662
+                    </a>
+                  </div>
+                  <div>
+                    <span className="text-white font-medium block">Dr. Saswati Chatterjee</span>
+                    <a href="tel:+919874410748" className="text-gray-300 hover:text-white transition-colors">
+                      +91 98744 10748
+                    </a>
+                  </div>
+                  <div>
+                    <span className="text-white font-medium block">Dr. Priyanka Mazumder</span>
+                    <a href="tel:+919957933180" className="text-gray-300 hover:text-white transition-colors">
+                      +91 99579 33180
+                    </a>
+                  </div>
+                </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-white flex-shrink-0 drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]" />
