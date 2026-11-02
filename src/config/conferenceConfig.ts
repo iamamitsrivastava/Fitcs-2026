@@ -270,6 +270,14 @@ export const conferenceConfig = {
         organization: "Parul University, Vadodara, Gujarat",
         role: "ORGANIZING SECRETARY",
         image: "/assets/comittiee/rajsinha-v2.jpg"
+      },
+      {
+        name: "Dr. Priyanka Mazumder",
+        title: "Assistant Professor, MCA Department, Faculty of Information Technology & Computer Science",
+        organization: "Parul University",
+        role: "ORGANIZING SECRETARY",
+        image: "/assets/comittiee/priyanka-mazumder-v2.jpg",
+        imagePosition: "object-center"
       }
     ],
     nationalAdvisoryCommittee: [
@@ -675,7 +683,8 @@ export const conferenceConfig = {
     steeringCommittee: [
       { name: "Dr. Ramachandran P", title: "Assistant Professor", organization: "Faculty of Information Technology & Computer Science, Vadodara, Gujarat", image: "/assets/comittiee/ramachandran-v2.jpg" },
       { name: "Dr. Saswati Chatterjee", title: "Assistant Professor", organization: "Faculty of Information Technology & Computer Science, Vadodara, Gujarat", image: "/assets/comittiee/saswati-v2.jpg" },
-      { name: "Dr. Raj Sinha", title: "CRO", organization: "Faculty of Information Technology & Computer Science, Vadodara, Gujarat", image: "/assets/comittiee/rajsinha-v2.jpg" }
+      { name: "Dr. Raj Sinha", title: "CRO", organization: "Faculty of Information Technology & Computer Science, Vadodara, Gujarat", image: "/assets/comittiee/rajsinha-v2.jpg" },
+      { name: "Dr. Priyanka Mazumder", title: "Assistant Professor, MCA Department", organization: "Faculty of Information Technology & Computer Science, Parul University", image: "/assets/comittiee/priyanka-mazumder-v2.jpg" }
     ],
     organizingChair: [
       { name: "Dr. Abhishek Metha", title: "Convener", organization: "Parul University", email: null },
